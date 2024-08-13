@@ -1,0 +1,61 @@
+:root{
+    --cor-primaria: #590808;
+    --cor-secundaria: #0D0D0D;
+    --cor-terciaria: #F26F63;
+    --cor-quaternaria: #8C1B11;
+}
+
+
+.Home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+    background-color: var(--cor-primaria);
+}
+
+.conteiner_filme{
+    flex: auto;
+    gap: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px 4px rgba(0, 0, 0, 0.568);
+}
+
+img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.conteiner_filme img:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.39);
+}
+
+h1{
+    font-size: 26px;
+    color: var(--cor-primaria);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conteiner_filme a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s;
+}
+
+.conteiner_filme a:hover{
+    color: #8C1B11;
+}
